@@ -1,0 +1,125 @@
+@import url("https://unpkg.com/simplebar@latest/dist/simplebar.css");
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+body {
+    background-color: #d0e8f2;
+    color: #456268;
+}
+
+.textarea {
+    overflow: auto;
+    background-color: #fff;
+    line-height: 1.4;
+}
+
+.toolbar {
+    user-select: none;
+}
+
+.word-span {
+    border-radius: 0.15em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    width: 3em;
+    height: 3em;
+    margin: 0 0.5em;
+}
+
+.highlight {
+    background-color: wheat;
+    border-radius: 0.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#confirm-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-txt {
+    width: 60vw;
+    height: 70vh;
+    border: 1px solid;
+    border-radius: 0.3em;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1.3em;
+}
+
+#question-txt {
+    width: 60vw;
+    height: 9vh;
+    border: 1px solid;
+    border-radius: 0.3em;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1.3em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.title-data {
+    height: 100vh;
+}
+
+.toolbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    left: 1em;
+    bottom: 1em;
+    background-color: #fffd;
+    border-radius: 0.3em;
+    font-size: 1.25em;
+    padding: 0 0.5em;
+}
+
+.toolbar .button {
+    padding: 0.5em;
+    margin-left: .2em;
+    cursor: pointer;
+}
+
+.toolbar .button:hover {
+    background-color: #ccce;
+}
+
+.active-btn {
+    background-color: #ccce;
+}
+
+.active {
+    display: block !important;
+}
+
+tr.sub-window-title-bar-blue {
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    color: white;
+    cursor: grab;
+}
