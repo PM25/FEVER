@@ -3,27 +3,24 @@
 
 <head>
     <link rel="stylesheet" href="source/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"
+        integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ=="
+        crossorigin="anonymous" />
     <link rel="shortcut icon" type="image/png" href="source/img/logo.png">
-    <meta
-            charset="utf-8"
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, minimum-scale=1,maximum-scale=1,user-scalable=no"
-        />
-    <script
-        src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossorigin="anonymous">
+    <meta charset="utf-8" name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
     </script>
-    <script
-        src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
-        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
-        crossorigin="anonymous">
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous">
     </script>
     <script src="source/js/iframe.js"></script>
     <script src="source/js/script.js"></script>
     <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js" integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"
+        integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ=="
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3"></script>
@@ -38,19 +35,24 @@
                     <img src="source/img/logo.png">
                     <h1><b>Fact Verification & Extraction</b></h1>
                 </div>
+                
+                <div class="data-list">
+                    <div class='button' id='data1'>Tom Hanks is incapable of receiving awards.</div>
+                    <div class='button' id='data2'>Labor Day is incapable of honoring the American labor movement.</div>
+                </div>
             </div>
-    
+
             <div>
                 <div class="textarea" id="question-txt" contenteditable="true" data-simplebar>
-                    The Academy Awards are an annual event?
+                    Tom Hanks is incapable of receiving awards.
                 </div>
-        
+
                 <div class="textarea" id="input-txt" contenteditable="true" data-simplebar>
-                    The Academy Awards , now known officially as the Oscars , is a set of twenty-four awards for artistic and technical merit in the American film industry , given annually by the Academy of Motion Picture Arts and Sciences -LRB- AMPAS -RRB- , to recognize excellence in cinematic achievements as assessed by the Academy 's voting membership . Academy of Motion Picture Arts and Sciences Academy of Motion Picture Arts and Sciences Academy_of_Motion_Picture_Arts_and_Sciences. The Academy is known around the world for its annual Academy Awards , now officially known as The `` Oscars '' . Academy Awards Academy Awards
+                    He won a Golden Globe Award and an Academy Award for Best Actor for his role in Philadelphia , as well as a Golden Globe , an Academy Award , a Screen Actors Guild Award , and a People 's Choice Award for Best Actor for his role in Forrest Gump . Philadelphia Philadelphia (film) Forrest Gump Forrest Gump Golden Globe Award Golden Globe Award Academy Award for Best Actor Academy Award for Best Actor Screen Actors Guild Award Screen Actors Guild Award Tom_Hanks. In 2004 , he received the Stanley Kubrick Britannia Award for Excellence in Film from the British Academy of Film and Television Arts -LRB- BAFTA -RRB- . British Academy of Film and Television Arts British Academy of Film and Television Arts Tom_Hanks. In 2014 , he received a Kennedy Center Honor and , in 2016 , he received a Presidential Medal of Freedom from President Barack Obama , as well as the French Legion of Honor . Kennedy Center Honor Kennedy Center Honors Presidential Medal of Freedom Presidential Medal of Freedom President President of the United States Barack Obama Barack Obama Legion of Honor Legion of Honor
                 </div>
             </div>
         </div>
-        
+
         <div class="toolbar">
             <div>
                 <div class="slider">

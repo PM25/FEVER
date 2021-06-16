@@ -2,7 +2,7 @@
 @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
 
 body {
-    background-color: #d0e8f2;
+    background-color: #A7C4BC;
     color: #456268;
 }
 
@@ -12,8 +12,15 @@ body {
     line-height: 1.4;
 }
 
-.toolbar {
-    user-select: none;
+.button {
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background-color: #C7E4DC;
 }
 
 .word-span {
@@ -86,13 +93,14 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    user-select: none;
 
     left: 1em;
     bottom: 1em;
     background-color: #fffd;
     border-radius: 0.3em;
     font-size: 1.25em;
-    padding: 0 0.5em;
+    padding: 0.3em 0.8em;
 }
 
 .toolbar .button {
